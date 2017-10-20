@@ -5,9 +5,9 @@ using System.Text;
 
 namespace OOP.Models
 {
-    public class ScheduleManager
+    public class Schedules
     {
         [JsonProperty(PropertyName = "schedules")]
-        public List<Schedule> Schedules { get; set; }
+        public List<Schedule> ScheduleList { get; set; }
     }
 }

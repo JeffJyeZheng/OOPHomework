@@ -5,9 +5,9 @@ using System.Text;
 
 namespace OOP.Models
 {
-    public class ConfigManager
+    public class Configs
     {
         [JsonProperty(PropertyName = "configs")]
-        public List<Config> Configs { get; set; }
+        public List<Config> ConfigList { get; set; }
     }
 }
